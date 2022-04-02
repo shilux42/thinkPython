@@ -19,4 +19,9 @@ def move(d):
     bob.fd(d)
     bob.pd()
 
-flower(bob, 50, 50, 9)
+move(-250)
+flower(bob, 100, 50, 8)
+move(250)
+flower(bob, 80, 80, 10)
+move(250)
+flower(bob, 70, 80, 20)
